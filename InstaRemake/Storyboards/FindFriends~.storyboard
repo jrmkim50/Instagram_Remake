@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IwL-C6-fi4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="RYK-aN-l2a">
+            <objects>
+                <viewController id="9DG-Rx-IBA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iPr-IL-f0Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="SXH-Jm-x7L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V1W-JJ-0gA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" selectedImage="tab_plus_black" id="rzs-hY-Cbr">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rra-kp-d3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="226" y="488"/>
+        </scene>
+        <!--Find Friends View Controller-->
+        <scene sceneID="y3R-i6-cim">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGs-hk-YG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="8df-W2-T90" customClass="FindFriendsViewController" customModule="InstaRemake" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F5c-vu-vdP"/>
+                        <viewControllerLayoutGuide type="bottom" id="aeS-5o-hNn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WO9-mQ-dVn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M00-NQ-fNa">
+                                <rect key="frame" x="0.0" y="4" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Find Friends" id="xtK-Tr-knH"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vkS-bW-Rug">
+                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FindFriendsCell" rowHeight="71" id="73D-Iy-xIY" customClass="FindFriendsCell" customModule="InstaRemake" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="71"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="73D-Iy-xIY" id="gE7-Fp-fB6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpp-El-wmX">
+                                                    <rect key="frame" x="23" y="8" width="215" height="54.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbX-TI-L5r">
+                                                    <rect key="frame" x="250" y="10" width="115" height="50.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="115" id="Ico-Rg-0sJ"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <action selector="followButtonTapped:" destination="73D-Iy-xIY" eventType="touchUpInside" id="dSh-X5-PfY"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Kpp-El-wmX" secondAttribute="bottom" id="2hr-Gu-clN"/>
+                                                <constraint firstAttribute="bottom" secondItem="JbX-TI-L5r" secondAttribute="bottom" constant="10" id="FhV-YZ-9OO"/>
+                                                <constraint firstItem="JbX-TI-L5r" firstAttribute="leading" secondItem="Kpp-El-wmX" secondAttribute="trailing" constant="12" id="H2F-nk-T6l"/>
+                                                <constraint firstAttribute="trailing" secondItem="JbX-TI-L5r" secondAttribute="trailing" constant="10" id="KxI-b4-YAZ"/>
+                                                <constraint firstItem="Kpp-El-wmX" firstAttribute="leading" secondItem="gE7-Fp-fB6" secondAttribute="leadingMargin" constant="15" id="PKk-qY-a91"/>
+                                                <constraint firstItem="Kpp-El-wmX" firstAttribute="top" secondItem="gE7-Fp-fB6" secondAttribute="topMargin" id="US9-dM-wv1"/>
+                                                <constraint firstItem="JbX-TI-L5r" firstAttribute="top" secondItem="gE7-Fp-fB6" secondAttribute="top" constant="10" id="kkd-1d-7JA"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="followButton" destination="JbX-TI-L5r" id="QVl-vs-ATU"/>
+                                            <outlet property="usernameLabel" destination="Kpp-El-wmX" id="4Mt-HW-uf7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="8df-W2-T90" id="lsV-im-Ruf"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="vkS-bW-Rug" secondAttribute="bottom" id="2fg-pi-UPa"/>
+                            <constraint firstItem="vkS-bW-Rug" firstAttribute="top" secondItem="M00-NQ-fNa" secondAttribute="bottom" id="BJ1-C3-IvI"/>
+                            <constraint firstItem="vkS-bW-Rug" firstAttribute="leading" secondItem="WO9-mQ-dVn" secondAttribute="leading" id="K6R-aa-Cd3"/>
+                            <constraint firstAttribute="trailing" secondItem="vkS-bW-Rug" secondAttribute="trailing" id="Ue8-K6-90N"/>
+                            <constraint firstItem="M00-NQ-fNa" firstAttribute="top" secondItem="WO9-mQ-dVn" secondAttribute="top" constant="4" id="W8i-js-zbi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tabBarItem:Scc-Lx-2gl:image" selectedImage="tabBarItem:Scc-Lx-2gl:selectedImage" id="Scc-Lx-2gl">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tableView" destination="vkS-bW-Rug" id="379-Kg-0XI"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="905" y="103"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="SEt-aH-edO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3We-b8-Tok" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="IwL-C6-fi4" customClass="MainTabBarController" customModule="InstaRemake" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cna-eM-boG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9ge-v1-WdB" kind="relationship" relationship="viewControllers" id="dIY-ar-hFJ"/>
+                        <segue destination="9DG-Rx-IBA" kind="relationship" relationship="viewControllers" id="dsd-pk-TIC"/>
+                        <segue destination="8df-W2-T90" kind="relationship" relationship="viewControllers" id="FZn-oG-Hh6"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-492" y="103"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="ugO-O3-irt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="9ge-v1-WdB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4qr-4D-0Li"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdM-gb-pGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="226.40000000000001" y="-226.23688155922042"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabBarItem:Scc-Lx-2gl:image" width="25" height="25">
+            <mutableData key="keyedArchiveRepresentation">
+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
+AARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQTAAAACwAAAUCcnVSVQAAACIA
+AAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+bwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIA
+ZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgA
+dQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgE
+OQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAA
+UgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCC
+cl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAA
+UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkA
+bABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUA
+cgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcA
+QgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsD
+kwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUA
+bgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQO
+Hw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwA
+aQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkA
+IABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAA
+UgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5BjEGSgZBACAA
+UgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQA
+AAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAA
+APNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMAABc0WFlaIAAAAAAA
+ACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L/
+//2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpa
+TlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJyYXmiLCrSJSYvMF5OU011dGFibGVBcnJheaMvLCrT
+MjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM0iUmODlXTlNDb2xvcqI4KtIlJjs8V05T
+SW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BUcm9vdIABAAgAEQAaACMALQAyADcARgBMAFcAXgBl
+AHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5ALsAvQDCANkA2wDdE0MTSBNTE1wTbxNz
+E34ThxOME5QTlxOcE6sTrxO2E74TyxPQE9IT1BPZE+ET5BPpE/ET9BQGFAkUDgAAAAAAAAIBAAAAAAAA
+AEEAAAAAAAAAAAAAAAAAABQQA
+</mutableData>
+        </image>
+        <image name="tabBarItem:Scc-Lx-2gl:selectedImage" width="25" height="25">
+            <mutableData key="keyedArchiveRepresentation">
+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
+AARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQTAAAACwAAAUCcnVSVQAAACIA
+AAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+bwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIA
+ZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgA
+dQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgE
+OQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAA
+UgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCC
+cl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAA
+UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkA
+bABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUA
+cgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcA
+QgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsD
+kwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUA
+bgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQO
+Hw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwA
+aQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkA
+IABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAA
+UgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5BjEGSgZBACAA
+UgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQA
+AAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAA
+APNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMAABc0WFlaIAAAAAAA
+ACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L/
+//2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpa
+TlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJyYXmiLCrSJSYvMF5OU011dGFibGVBcnJheaMvLCrT
+MjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM0iUmODlXTlNDb2xvcqI4KtIlJjs8V05T
+SW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BUcm9vdIABAAgAEQAaACMALQAyADcARgBMAFcAXgBl
+AHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5ALsAvQDCANkA2wDdE0MTSBNTE1wTbxNz
+E34ThxOME5QTlxOcE6sTrxO2E74TyxPQE9IT1BPZE+ET5BPpE/ET9BQGFAkUDgAAAAAAAAIBAAAAAAAA
+AEEAAAAAAAAAAAAAAAAAABQQA
+</mutableData>
+        </image>
+        <image name="tab_plus_black" width="25" height="25"/>
+    </resources>
+</document>

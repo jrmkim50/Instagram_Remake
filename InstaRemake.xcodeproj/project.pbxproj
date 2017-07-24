@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2796168E1F1ACA95002D71E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796168D1F1ACA95002D71E4 /* User.swift */; };
+		87B1AD2551E2F5D4B9440B15 /* Pods_InstaRemake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690C24691666E1224C070C1A /* Pods_InstaRemake.framework */; };
+		F14881021F19331C00FDB9B1 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14881011F19331C00FDB9B1 /* StorageService.swift */; };
+		F14881041F19335C00FDB9B1 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14881031F19335C00FDB9B1 /* PostService.swift */; };
+		F14881061F193BFC00FDB9B1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14881051F193BFC00FDB9B1 /* Post.swift */; };
+		F14881091F193E9F00FDB9B1 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14881081F193E9F00FDB9B1 /* UIImage+Size.swift */; };
+		F148810B1F193ED200FDB9B1 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148810A1F193ED200FDB9B1 /* StorageReference+Post.swift */; };
+		F16766351F1D5A1100FE938A /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16766341F1D5A1100FE938A /* FindFriends.storyboard */; };
 		F1ACBD661F13C2D0000ADC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACBD651F13C2D0000ADC54 /* AppDelegate.swift */; };
-		F1ACBD681F13C2D0000ADC54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACBD671F13C2D0000ADC54 /* ViewController.swift */; };
-		F1ACBD6B1F13C2D0000ADC54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD691F13C2D0000ADC54 /* Main.storyboard */; };
 		F1ACBD6D1F13C2D0000ADC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD6C1F13C2D0000ADC54 /* Assets.xcassets */; };
-		F1ACBD701F13C2D0000ADC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD6E1F13C2D0000ADC54 /* LaunchScreen.storyboard */; };
+		F1ACBD7C1F13CD90000ADC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD7B1F13CD90000ADC54 /* LaunchScreen.storyboard */; };
+		F1ACBD821F13CDAB000ADC54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD811F13CDAB000ADC54 /* GoogleService-Info.plist */; };
+		F1ACBD8A1F13D32E000ADC54 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBD891F13D32E000ADC54 /* Login.storyboard */; };
+		F1ACBD8C1F13D532000ADC54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACBD8B1F13D532000ADC54 /* LoginViewController.swift */; };
+		F1B681571F17B86C0022F8E3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681561F17B86C0022F8E3 /* UserService.swift */; };
+		F1B681591F17CA0E0022F8E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681581F17CA0E0022F8E3 /* Constants.swift */; };
+		F1B6815B1F17CCD10022F8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B6815A1F17CCD10022F8E3 /* Main.storyboard */; };
+		F1B681611F17CF9C0022F8E3 /* makestagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = F1B681601F17CF9C0022F8E3 /* makestagram_assets */; };
+		F1B681631F17DBBE0022F8E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681621F17DBBE0022F8E3 /* HomeViewController.swift */; };
+		F1B681651F17DBC90022F8E3 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681641F17DBC90022F8E3 /* FindFriendsViewController.swift */; };
+		F1B681671F17E9220022F8E3 /* StoryboardUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681661F17E9220022F8E3 /* StoryboardUtility.swift */; };
+		F1B681691F17F72C0022F8E3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B681681F17F72C0022F8E3 /* MainTabBarController.swift */; };
+		F1B6816C1F17F9080022F8E3 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6816B1F17F9080022F8E3 /* MGPhotoHelper.swift */; };
+		F1C471A91F1B5A5500D01F9A /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C471A81F1B5A5500D01F9A /* FollowService.swift */; };
+		F1C471B31F1B677100D01F9A /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C471B21F1B677100D01F9A /* FindFriendsCell.swift */; };
+		F1C4F58A1F17A6DA00719A6D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4F5891F17A6DA00719A6D /* CreateUsernameViewController.swift */; };
+		F1E4EAF91F1AD309006B781A /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4EAF81F1AD309006B781A /* LikeService.swift */; };
+		F1F5DFA41F1945CA00166BB9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F5DFA31F1945CA00166BB9 /* Home.storyboard */; };
+		F1F5DFA61F196D4700166BB9 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5DFA51F196D4700166BB9 /* PostImageCell.swift */; };
+		F1F5DFA81F198C9300166BB9 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5DFA71F198C9300166BB9 /* PostHeaderCell.swift */; };
+		F1F5DFAA1F19909700166BB9 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5DFA91F19909700166BB9 /* PostActionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2796168D1F1ACA95002D71E4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5A7D0BB7935C184952E48C69 /* Pods-InstaRemake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaRemake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaRemake/Pods-InstaRemake.debug.xcconfig"; sourceTree = "<group>"; };
+		690C24691666E1224C070C1A /* Pods_InstaRemake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaRemake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2CDDF07DE5A9B613540DB3 /* Pods-InstaRemake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaRemake.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaRemake/Pods-InstaRemake.release.xcconfig"; sourceTree = "<group>"; };
+		F14881011F19331C00FDB9B1 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F14881031F19335C00FDB9B1 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		F14881051F193BFC00FDB9B1 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F14881081F193E9F00FDB9B1 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		F148810A1F193ED200FDB9B1 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		F16766341F1D5A1100FE938A /* FindFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FindFriends.storyboard; path = Storyboards/FindFriends.storyboard; sourceTree = "<group>"; };
 		F1ACBD621F13C2D0000ADC54 /* InstaRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1ACBD651F13C2D0000ADC54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1ACBD671F13C2D0000ADC54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1ACBD6A1F13C2D0000ADC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1ACBD6C1F13C2D0000ADC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1ACBD6F1F13C2D0000ADC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F1ACBD711F13C2D0000ADC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1ACBD7B1F13CD90000ADC54 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1ACBD7F1F13CDA4000ADC54 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
+		F1ACBD811F13CDAB000ADC54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1ACBD891F13D32E000ADC54 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		F1ACBD8B1F13D532000ADC54 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F1B681561F17B86C0022F8E3 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F1B681581F17CA0E0022F8E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1B6815A1F17CCD10022F8E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		F1B681601F17CF9C0022F8E3 /* makestagram_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = makestagram_assets; sourceTree = "<group>"; };
+		F1B681621F17DBBE0022F8E3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F1B681641F17DBC90022F8E3 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		F1B681661F17E9220022F8E3 /* StoryboardUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardUtility.swift; sourceTree = "<group>"; };
+		F1B681681F17F72C0022F8E3 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F1B6816B1F17F9080022F8E3 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		F1C471A81F1B5A5500D01F9A /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		F1C471B21F1B677100D01F9A /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		F1C4F5891F17A6DA00719A6D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		F1E4EAF81F1AD309006B781A /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		F1F5DFA31F1945CA00166BB9 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
+		F1F5DFA51F196D4700166BB9 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		F1F5DFA71F198C9300166BB9 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		F1F5DFA91F19909700166BB9 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B1AD2551E2F5D4B9440B15 /* Pods_InstaRemake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86B7EBAB68FF49E0ED924C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A7D0BB7935C184952E48C69 /* Pods-InstaRemake.debug.xcconfig */,
+				CE2CDDF07DE5A9B613540DB3 /* Pods-InstaRemake.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1D9A4DE7DCBEC812F06522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690C24691666E1224C070C1A /* Pods_InstaRemake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F14881071F193E9100FDB9B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F14881081F193E9F00FDB9B1 /* UIImage+Size.swift */,
+				F148810A1F193ED200FDB9B1 /* StorageReference+Post.swift */,
+				F1B681661F17E9220022F8E3 /* StoryboardUtility.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		F1ACBD591F13C2D0000ADC54 = {
 			isa = PBXGroup;
 			children = (
 				F1ACBD641F13C2D0000ADC54 /* InstaRemake */,
 				F1ACBD631F13C2D0000ADC54 /* Products */,
+				86B7EBAB68FF49E0ED924C9A /* Pods */,
+				BB1D9A4DE7DCBEC812F06522 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +138,93 @@
 		F1ACBD641F13C2D0000ADC54 /* InstaRemake */ = {
 			isa = PBXGroup;
 			children = (
+				F1C78D891F1AB78400DCDC7E /* Views */,
+				F14881071F193E9100FDB9B1 /* Extensions */,
+				F1B6816A1F17F8EC0022F8E3 /* Helpers */,
+				F1B681551F17B8500022F8E3 /* Services */,
+				F1D892821F167957000C3DA8 /* Models */,
 				F1ACBD651F13C2D0000ADC54 /* AppDelegate.swift */,
-				F1ACBD671F13C2D0000ADC54 /* ViewController.swift */,
-				F1ACBD691F13C2D0000ADC54 /* Main.storyboard */,
+				F1ACBD871F13D13C000ADC54 /* View Controllers */,
+				F1ACBD851F13D113000ADC54 /* Supporting Files */,
+				F1ACBD881F13D154000ADC54 /* Storyboards */,
 				F1ACBD6C1F13C2D0000ADC54 /* Assets.xcassets */,
-				F1ACBD6E1F13C2D0000ADC54 /* LaunchScreen.storyboard */,
-				F1ACBD711F13C2D0000ADC54 /* Info.plist */,
+				F1B681601F17CF9C0022F8E3 /* makestagram_assets */,
 			);
 			path = InstaRemake;
+			sourceTree = "<group>";
+		};
+		F1ACBD851F13D113000ADC54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1ACBD811F13CDAB000ADC54 /* GoogleService-Info.plist */,
+				F1ACBD7F1F13CDA4000ADC54 /* Info.plist */,
+				F1ACBD7B1F13CD90000ADC54 /* LaunchScreen.storyboard */,
+				F1B681581F17CA0E0022F8E3 /* Constants.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1ACBD871F13D13C000ADC54 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1ACBD8B1F13D532000ADC54 /* LoginViewController.swift */,
+				F1C4F5891F17A6DA00719A6D /* CreateUsernameViewController.swift */,
+				F1B681621F17DBBE0022F8E3 /* HomeViewController.swift */,
+				F1B681641F17DBC90022F8E3 /* FindFriendsViewController.swift */,
+				F1B681681F17F72C0022F8E3 /* MainTabBarController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F1ACBD881F13D154000ADC54 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F1ACBD891F13D32E000ADC54 /* Login.storyboard */,
+				F1B6815A1F17CCD10022F8E3 /* Main.storyboard */,
+				F16766341F1D5A1100FE938A /* FindFriends.storyboard */,
+				F1F5DFA31F1945CA00166BB9 /* Home.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F1B681551F17B8500022F8E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1B681561F17B86C0022F8E3 /* UserService.swift */,
+				F14881011F19331C00FDB9B1 /* StorageService.swift */,
+				F14881031F19335C00FDB9B1 /* PostService.swift */,
+				F1E4EAF81F1AD309006B781A /* LikeService.swift */,
+				F1C471A81F1B5A5500D01F9A /* FollowService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		F1B6816A1F17F8EC0022F8E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F1B6816B1F17F9080022F8E3 /* MGPhotoHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F1C78D891F1AB78400DCDC7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5DFA51F196D4700166BB9 /* PostImageCell.swift */,
+				F1F5DFA71F198C9300166BB9 /* PostHeaderCell.swift */,
+				F1F5DFA91F19909700166BB9 /* PostActionCell.swift */,
+				F1C471B21F1B677100D01F9A /* FindFriendsCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F1D892821F167957000C3DA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2796168D1F1ACA95002D71E4 /* User.swift */,
+				F14881051F193BFC00FDB9B1 /* Post.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1ACBD741F13C2D0000ADC54 /* Build configuration list for PBXNativeTarget "InstaRemake" */;
 			buildPhases = (
+				B170BE9B5EEB64B9ABFA7B63 /* [CP] Check Pods Manifest.lock */,
 				F1ACBD5E1F13C2D0000ADC54 /* Sources */,
 				F1ACBD5F1F13C2D0000ADC54 /* Frameworks */,
 				F1ACBD601F13C2D0000ADC54 /* Resources */,
+				396224D836270F1694DD1065 /* [CP] Embed Pods Frameworks */,
+				55307E9E03BC879632855A1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +262,7 @@
 				TargetAttributes = {
 					F1ACBD611F13C2D0000ADC54 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 66LDH4TG6J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,44 +290,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1ACBD701F13C2D0000ADC54 /* LaunchScreen.storyboard in Resources */,
+				F1F5DFA41F1945CA00166BB9 /* Home.storyboard in Resources */,
+				F16766351F1D5A1100FE938A /* FindFriends.storyboard in Resources */,
+				F1ACBD821F13CDAB000ADC54 /* GoogleService-Info.plist in Resources */,
+				F1B681611F17CF9C0022F8E3 /* makestagram_assets in Resources */,
+				F1B6815B1F17CCD10022F8E3 /* Main.storyboard in Resources */,
 				F1ACBD6D1F13C2D0000ADC54 /* Assets.xcassets in Resources */,
-				F1ACBD6B1F13C2D0000ADC54 /* Main.storyboard in Resources */,
+				F1ACBD8A1F13D32E000ADC54 /* Login.storyboard in Resources */,
+				F1ACBD7C1F13CD90000ADC54 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		396224D836270F1694DD1065 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaRemake/Pods-InstaRemake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55307E9E03BC879632855A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaRemake/Pods-InstaRemake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B170BE9B5EEB64B9ABFA7B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1ACBD5E1F13C2D0000ADC54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1ACBD681F13C2D0000ADC54 /* ViewController.swift in Sources */,
+				F1C471A91F1B5A5500D01F9A /* FollowService.swift in Sources */,
+				F1B681671F17E9220022F8E3 /* StoryboardUtility.swift in Sources */,
+				F14881021F19331C00FDB9B1 /* StorageService.swift in Sources */,
+				F1B681691F17F72C0022F8E3 /* MainTabBarController.swift in Sources */,
+				F1ACBD8C1F13D532000ADC54 /* LoginViewController.swift in Sources */,
+				F1F5DFAA1F19909700166BB9 /* PostActionCell.swift in Sources */,
+				F14881061F193BFC00FDB9B1 /* Post.swift in Sources */,
+				F1E4EAF91F1AD309006B781A /* LikeService.swift in Sources */,
+				F1F5DFA61F196D4700166BB9 /* PostImageCell.swift in Sources */,
+				F14881091F193E9F00FDB9B1 /* UIImage+Size.swift in Sources */,
+				F1C471B31F1B677100D01F9A /* FindFriendsCell.swift in Sources */,
+				F1B681571F17B86C0022F8E3 /* UserService.swift in Sources */,
+				F1B6816C1F17F9080022F8E3 /* MGPhotoHelper.swift in Sources */,
+				F1B681591F17CA0E0022F8E3 /* Constants.swift in Sources */,
+				F1C4F58A1F17A6DA00719A6D /* CreateUsernameViewController.swift in Sources */,
+				F148810B1F193ED200FDB9B1 /* StorageReference+Post.swift in Sources */,
+				F1B681651F17DBC90022F8E3 /* FindFriendsViewController.swift in Sources */,
+				F14881041F19335C00FDB9B1 /* PostService.swift in Sources */,
+				F1B681631F17DBBE0022F8E3 /* HomeViewController.swift in Sources */,
+				F1F5DFA81F198C9300166BB9 /* PostHeaderCell.swift in Sources */,
 				F1ACBD661F13C2D0000ADC54 /* AppDelegate.swift in Sources */,
+				2796168E1F1ACA95002D71E4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F1ACBD691F13C2D0000ADC54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1ACBD6A1F13C2D0000ADC54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F1ACBD6E1F13C2D0000ADC54 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1ACBD6F1F13C2D0000ADC54 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F1ACBD721F13C2D0000ADC54 /* Debug */ = {
@@ -258,9 +479,11 @@
 		};
 		F1ACBD751F13C2D0000ADC54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7D0BB7935C184952E48C69 /* Pods-InstaRemake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = InstaRemake/Info.plist;
+				DEVELOPMENT_TEAM = 66LDH4TG6J;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaRemake/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.InstaRemake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +493,11 @@
 		};
 		F1ACBD761F13C2D0000ADC54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2CDDF07DE5A9B613540DB3 /* Pods-InstaRemake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = InstaRemake/Info.plist;
+				DEVELOPMENT_TEAM = 66LDH4TG6J;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaRemake/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.InstaRemake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +524,7 @@
 				F1ACBD761F13C2D0000ADC54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
